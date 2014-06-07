@@ -1,5 +1,5 @@
-Reporter
-========
+reporter-ruby
+=============
 
 TODO: Write a gem description
 
