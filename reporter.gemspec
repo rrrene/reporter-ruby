@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["git@bradfeehan.com"]
   spec.summary       = %q{Parses data exported from Reporter}
   spec.description   = %q{A Ruby library for parsing and processing data exported from the Reporter app for iOS.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/bradfeehan/reporter-ruby"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
