@@ -1,7 +1,8 @@
 reporter-ruby
 =============
 
-TODO: Write a gem description
+A Ruby library for parsing and processing data exported from the
+Reporter app for iOS.
 
 
 
