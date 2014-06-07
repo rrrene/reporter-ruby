@@ -1,8 +1,13 @@
 reporter-ruby
 =============
 
+[![Build Status][build-badge]][build]
+
 A Ruby library for parsing and processing data exported from the
 Reporter app for iOS.
+
+[build-badge]: <https://travis-ci.org/bradfeehan/reporter-ruby.svg?branch=master>
+[build]: <https://travis-ci.org/bradfeehan/reporter-ruby>
 
 
 
