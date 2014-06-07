@@ -1,8 +1,12 @@
-# Reporter
+Reporter
+========
 
 TODO: Write a gem description
 
-## Installation
+
+
+Installation
+------------
 
 Add this line to your application's Gemfile:
 
@@ -16,11 +20,17 @@ Or install it yourself as:
 
     $ gem install reporter
 
-## Usage
+
+
+Usage
+-----
 
 TODO: Write usage instructions here
 
-## Contributing
+
+
+Contributing
+------------
 
 1. Fork it ( https://github.com/[my-github-username]/reporter/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
