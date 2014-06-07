@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Reporter::VERSION
   spec.authors       = ["Brad Feehan"]
   spec.email         = ["git@bradfeehan.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Parses data exported from Reporter}
+  spec.description   = %q{A Ruby library for parsing and processing data exported from the Reporter app for iOS.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
