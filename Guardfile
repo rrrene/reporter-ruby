@@ -1,5 +1,7 @@
-# A sample Guardfile
-# More info at https://github.com/guard/guard#readme
+guard :bundler do
+  watch('Gemfile')
+  watch('reporter.gemspec')
+end
 
 guard :minitest do
   watch(%r{^spec/(.+)_spec\.rb$})
