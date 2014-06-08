@@ -23,4 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "guard-minitest"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "minitest-reporters"
+  spec.add_development_dependency "minitest-spec-expect"
 end
