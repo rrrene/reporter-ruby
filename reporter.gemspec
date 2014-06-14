@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "guard-bundler"
   spec.add_development_dependency "guard-cane"
   spec.add_development_dependency "guard-minitest"
+  spec.add_development_dependency "inch"
   spec.add_development_dependency "minitest-reporters"
   spec.add_development_dependency "minitest-spec-expect"
   spec.add_development_dependency "rake"

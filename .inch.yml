@@ -1,0 +1,7 @@
+files:
+  included:
+    - "**/*.rb"
+  excluded:
+    - "spec/**/*_spec.rb"
+    - "spec/fixtures/**/*"
+    - "build/**/*"
