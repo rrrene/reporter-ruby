@@ -3,6 +3,6 @@ require "reporter"
 
 describe Reporter do
   it "should be a module" do
-    Reporter.must_be_instance_of Module
+    expect(Reporter).to_be_instance_of Module
   end
 end
