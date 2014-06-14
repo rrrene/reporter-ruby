@@ -6,6 +6,12 @@ module Reporter
     # name - An object that responds to #to_s. Represents the name of
     #        the fixture to find.
     #
+    # Examples
+    #
+    #   Reporter::Testing.fixture_path("my_fixture.json")
+    #   # => "/path/to/my_fixture.json"
+    #
+    # Returns a String with the absolute path to the fixture.
     # Raises Reporter::UnknownFixtureError if the fixture can't be
     #   found.
     def self.fixture_path(name)
@@ -21,8 +27,13 @@ module Reporter
         # Internal: Creates a new instance of this exception for a
         #   given fixture name.
         #
-        # path - An object that responds to #to_s. Represents the name
+        # name - An object that responds to #to_s. Represents the name
         #        of the fixture that couldn't be found.
+        #
+        # Examples
+        #
+        #   raise Reporter::Testing::UnknownFixtureError.new("my_fixture")
+        #   # => Unknown fixture 'my_fixture'
         def initialize(name)
           super "Unknown fixture '#{name}'"
         end

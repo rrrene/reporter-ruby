@@ -1,10 +1,5 @@
 module Reporter
   # Public: Represents a single Reporter question.
-  #
-  # Examples
-  #
-  #   Reporter::Question.new("What?")
-  #   # => #<Reporter::Question:0x1234 @text="What?">
   class Question
     # Public: Returns a String containing the text of this question.
     attr_reader :text
@@ -13,6 +8,11 @@ module Reporter
     #
     # text - An object that responds to #to_s. Represents the text of
     #        the question being initialized.
+    #
+    # Examples
+    #
+    #   Reporter::Question.new("What?")
+    #   # => #<Reporter::Question:0x1234 @text="What?">
     def initialize(text)
       @text = text.to_s
     end

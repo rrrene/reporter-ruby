@@ -1,15 +1,15 @@
 module Reporter
   # Public: Represents a dump of data exported from Reporter
-  #
-  # Examples
-  #
-  #   Reporter::Dump.from_file("/path/to/dump.json")
-  #   # => #<Reporter::Dump:0x1234 @contents="...">
   class Dump
     # Public: Load a Reporter dump from a file on disk.
     #
     # path - An object that responds to #to_s. Represents the path to
     #        the file on disk to be loaded.
+    #
+    # Examples
+    #
+    #   Reporter::Dump.from_file("/path/to/dump.json")
+    #   # => #<Reporter::Dump:0x1234 @contents="...">
     #
     # Returns the Dump object representing the loaded dump.
     # Raises Errno::ENOENT if the file cannot be found.
@@ -25,6 +25,11 @@ module Reporter
     #
     # contents - An object that responds to #to_s. Represents the raw
     #            serialized contents loaded from the dump.
+    #
+    # Examples
+    #
+    #   Reporter::Dump.new('{"foo": "bar"}')
+    #   # => #<Reporter::Dump:0x1234 @contents="{\"foo\": \"bar\"}">
     def initialize(contents)
       @contents = contents.to_s
     end
