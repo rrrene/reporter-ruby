@@ -1,0 +1,15 @@
+{
+  "questions" : [
+    {
+      "prompt" : "Question 1"
+    },
+    {
+      "prompt" : "The second question",
+      "placeholderString" : "Placeholder answer"
+    },
+    {
+      "prompt" : "Single answer question",
+      "allowMultipleSelection" : 0
+    }
+  ]
+}
