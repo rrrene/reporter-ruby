@@ -1,9 +1,13 @@
 module Reporter
   # Internal: Provides helper methods for testing.
   module Testing
-    # Determines the path to a fixture
+    # Internal: Determines the path to a fixture.
     #
-    # Raises Reporter::UnknownFixtureError if the fixture can't be found
+    # name - An object that responds to #to_s. Represents the name of
+    #        the fixture to find.
+    #
+    # Raises Reporter::UnknownFixtureError if the fixture can't be
+    #   found.
     def self.fixture_path(name)
       support = File.dirname __FILE__
       File.expand_path("../fixtures/#{name}", support).tap do |path|
@@ -12,9 +16,13 @@ module Reporter
     end
 
     private
-      # Raised when an unknown fixture name is requested
+      # Internal: Raised when an unknown fixture name is requested.
       class UnknownFixtureError < ArgumentError
-        # Creates a new instance of this exception for a given fixture name
+        # Internal: Creates a new instance of this exception for a
+        #   given fixture name.
+        #
+        # path - An object that responds to #to_s. Represents the name
+        #        of the fixture that couldn't be found.
         def initialize(name)
           super "Unknown fixture '#{name}'"
         end
