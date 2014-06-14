@@ -1,4 +1,5 @@
 module Reporter
+  # Internal: Provides helper methods for testing.
   module Testing
     # Determines the path to a fixture
     #
