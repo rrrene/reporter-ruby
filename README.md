@@ -3,6 +3,7 @@ reporter-ruby
 
 [![Build Status][build-badge]][build]
 [![Code Climate][quality-badge]][quality]
+[![Inline docs](http://inch-ci.org/github/bradfeehan/reporter-ruby.png?branch=master)](http://inch-ci.org/github/bradfeehan/reporter-ruby)
 
 A Ruby library for parsing and processing data exported from the
 Reporter app for iOS.
